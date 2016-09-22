@@ -4,7 +4,7 @@
   "description": "A testing sandbox",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,9 @@
     "jest-cli": "^15.1.1"
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "*.js"
+    ]
   }
 }

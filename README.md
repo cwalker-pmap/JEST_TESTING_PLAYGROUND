@@ -1,1 +1,1 @@
-# JEST_TESTING_PLAYGROUND
+# To Run Tests: `npm t`

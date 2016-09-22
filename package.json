@@ -1,0 +1,25 @@
+{
+  "name": "jest-testing-playground",
+  "version": "1.0.0",
+  "description": "A testing sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwalker-pmap/JEST_TESTING_PLAYGROUND.git"
+  },
+  "author": "Cyrus R. Walker <cwalker@processmap.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cwalker-pmap/JEST_TESTING_PLAYGROUND/issues"
+  },
+  "homepage": "https://github.com/cwalker-pmap/JEST_TESTING_PLAYGROUND#readme",
+  "devDependencies": {
+    "jest-cli": "^15.1.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
